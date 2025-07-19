@@ -50,8 +50,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.nav-link:focus,
 .nav-link:hover,
+.nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf
@@ -102,6 +102,11 @@ width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
+}
+
+.heading-xl-button:hover,
+.heading-xl-button:focus{
+    background: #404bbf;
 }
 
 .heading-xl-button-title{
