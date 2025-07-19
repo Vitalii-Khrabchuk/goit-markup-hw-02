@@ -72,8 +72,6 @@ line-height: 1.5;
 color: #fff;
 font-weight: 500;
 letter-spacing: 0.04em;
-width: 169px;
-height: 56px;
 background: #4d5ae5;
 cursor: pointer;
 }
@@ -91,6 +89,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+}
+
+.portfolio-img{
+    background-color: #FFFFFF;
 }
 
 .heading-md {
@@ -121,13 +123,15 @@ text-transform: capitalize;
 
 }
 .page-footer {
-    background-color: #2e2f42;
+background-color: #2e2f42;
 }
 
 .footer-logo .logo-part {
-    color: #f4f4fd;
+color: #f4f4fd;
 }
 
 .footer-text{
-   color: #f4f4fd;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
