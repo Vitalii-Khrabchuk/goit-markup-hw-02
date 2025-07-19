@@ -91,7 +91,7 @@ color: #2e2f42;
 text-transform: capitalize;
 }
 
-.portfolio-item {
+.portfolio-list {
 background-color: #FFFFFF;
 }
 
@@ -123,9 +123,6 @@ background-color: #FFFFFF;
     background-color: #FFFFFF;
 }
 
-.heading-xl-button-title{
-
-}
 .page-footer {
 background-color: #2e2f42;
 }
