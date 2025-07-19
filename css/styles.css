@@ -27,10 +27,6 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-    color: #f4f4fd;
-}
-
 .nav-link{
 font-weight: 500;
 font-size: 16px;
@@ -40,7 +36,7 @@ color: #2e2f42;
 }
 
 .contacts{
-    font-style: normal;
+font-style: normal;
 }
 
 .contacts-link{
@@ -54,18 +50,11 @@ color: #434455;
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404bbf
+color: #404bbf
 }
 
-.page-footer{
+.section-start{
     background-color: #2e2f42;
-}
-
-p{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
 .heading-xl{
@@ -77,6 +66,23 @@ text-align: center;
 color: #fff;
 }
 
+.heading-xl-button {
+font-size: 16px;
+line-height: 1.5;
+color: #fff;
+font-weight: 500;
+letter-spacing: 0.04em;
+width: 169px;
+height: 56px;
+background: #4d5ae5;
+cursor: pointer;
+}
+
+.heading-xl-button:hover,
+.heading-xl-button:focus {
+    background: #404bbf;
+}
+
 .heading-lg{
 font-weight: 700;
 font-size: 36px;
@@ -84,34 +90,44 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
-.heading-md{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+.heading-md {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
-.heading-xl-button{
-border-radius: 4px;
-padding: 16px 32px;
-width: 169px;
-height: 56px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #4d5ae5;
+.text-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.heading-xl-button:hover,
-.heading-xl-button:focus{
-    background: #404bbf;
+.section-team{
+    background-color: #F4F4FD;
+}
+
+.img-team{
+    background-color: #FFFFFF;
 }
 
 .heading-xl-button-title{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-color: #fff;
+
+}
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.footer-text{
+   color: #f4f4fd;
 }
